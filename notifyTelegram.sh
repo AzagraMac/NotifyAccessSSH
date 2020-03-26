@@ -3,8 +3,6 @@
 TOKEN="YOUR_TOKEN"
 ID="YOUR_CHAT_ID"
 URL="https://api.telegram.org/bot$TOKEN/sendMessage"
-SSH=`echo $SSH_CLIENT | awk '{ print $1}'`
-IP=`w -h | awk '{print""$3}'`
 
 if [ "$PAM_TYPE" != "open_session" ]
 then
