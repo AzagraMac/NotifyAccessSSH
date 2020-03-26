@@ -10,12 +10,12 @@ No need to download additional libraries, it's all by curl.
  
  ## Install
  - Add at the end of the file ***/etc/pam.d/sshd*** the following line
- ```session    optional	pam_exec.so /path/to/script/notifyTelegram.sh```
+	```session    optional	pam_exec.so /path/to/script/notifyTelegram.sh```
  
  - We edit the script, adding our `token` and our `chat_id`
  
- - Assign execution permits. 
- ```chmod a+x /path/to/script/notifyTelegram.sh```
+ - Assign execution permits.
+	```chmod a+x /path/to/script/notifyTelegram.sh```
 
 ## Summary
 
