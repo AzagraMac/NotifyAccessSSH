@@ -2,6 +2,11 @@ This simple script, which informs us of every ssh connection made to our Linux s
 
 No need to download additional libraries, it's all by curl. 
 
+<p align="center">
+        <img src="res/capture.png" alt="PNG" height="500px" />
+</p>
+
+
 ## Prerequisites
 
  - First create a bot in the Telegram [@BotFather](https://t.me/BotFather) account
